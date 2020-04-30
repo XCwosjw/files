@@ -1,0 +1,7 @@
+{
+  "name": "proxy",
+  "version": 2,
+  "routes": [
+    {"src": "/(.*)","dest": "https://xcwosjw-files-eu.herokuapp.com/$1"}
+  ]
+}
